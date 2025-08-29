@@ -69,3 +69,22 @@ body{
     text-align: center;
     color: bisque;
 }
+
+.links a {
+    color: bisque;
+    text-decoration: none;
+    
+}
+
+.links h3{
+    font-size: 20px;
+    color: lightblue;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.links:hover{
+    color: rgb(51, 50, 46);
+    text-shadow: 2px 2px 5px black;
+    transform: scale(1.1);
+}
