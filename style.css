@@ -38,15 +38,15 @@ body{
 }
 
 .code-box {
-  background-color: #1e1e1e;
-  color: #d4d4d4;
-  padding: 15px;
-  border-radius: 8px;
-  font-family: 'Courier New', monospace;
-  font-size: 14px;
-  overflow-x: auto;
-  border: 1px solid #444;
-  margin: 20px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    overflow-x: auto;
+    border: 1px solid #444;
+    margin: 20px;
 }
 
 .css-box{
@@ -59,6 +59,61 @@ body{
     overflow-x: auto;
     border: 1px solid #444;
     margin: 20px;
+}
+
+.code-box {
+  position: relative; 
+}
+
+.copy-html {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  padding: 6px 12px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  /* 3D efekt */
+  box-shadow: 0 3px 0 #1e1e1e;
+  transition: transform .1s, box-shadow .1s;
+}
+
+/* 3) Basılınca içeri çökme */
+.copy-html:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #1e1e1e;
+}
+
+.css-box{
+    position: relative;
+}
+
+.copy-css{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    /* 3D efekt */
+    box-shadow: 0 3px 0 #1e1e1e;
+    transition: transform .1s, box-shadow .1s;
+}
+
+.copy-css:active{
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 #1e1e1e;
 }
 
 .html-label{
