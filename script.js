@@ -4,7 +4,7 @@ function copyHtml() {
 
   navigator.clipboard.writeText(text)
     .then(() => {
-      alert("Yazı kopyalandı!");
+      alert("Teşekkür ederim!");
     })
     .catch(err => {
       console.error("Kopyalama hatası:", err);
@@ -16,7 +16,7 @@ function copyCss() {
 
     navigator.clipboard.writeText(text1)
     .then(() => {
-      alert("Yazı kopyalandı!");
+      alert("Teşekkür ederim!");
     })
     .catch(err => {
       console.error("Kopyalama hatası:", err);
